@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 24, 49, 59;
+  --background-rgb: 255, 255, 254;
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src: url('/fonts/Gotham-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src: url('/fonts/Gotham-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src: url('/fonts/Gotham-Italic.otf') format('opentype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  font-family: 'Gotham', sans-serif;
+  background: rgb(var(--background-rgb));
+}
+
+.hexagon-mark {
+  clip-path: polygon(25% 4%, 75% 4%, 100% 50%, 75% 96%, 25% 96%, 0 50%);
+  display: inline-block;
+}
+
+.hexagon-pattern {
+  background-image:
+    linear-gradient(30deg, rgba(255, 255, 254, 0.08) 12%, transparent 12.5%, transparent 87%, rgba(255, 255, 254, 0.08) 87.5%, rgba(255, 255, 254, 0.08)),
+    linear-gradient(150deg, rgba(255, 255, 254, 0.08) 12%, transparent 12.5%, transparent 87%, rgba(255, 255, 254, 0.08) 87.5%, rgba(255, 255, 254, 0.08)),
+    linear-gradient(30deg, rgba(255, 255, 254, 0.08) 12%, transparent 12.5%, transparent 87%, rgba(255, 255, 254, 0.08) 87.5%, rgba(255, 255, 254, 0.08)),
+    linear-gradient(150deg, rgba(255, 255, 254, 0.08) 12%, transparent 12.5%, transparent 87%, rgba(255, 255, 254, 0.08) 87.5%, rgba(255, 255, 254, 0.08));
+  background-position: 0 0, 0 0, 32px 56px, 32px 56px;
+  background-size: 64px 112px;
+}

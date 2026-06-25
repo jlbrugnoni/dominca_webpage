@@ -1,0 +1,4 @@
+Catalogo comercial pendiente.
+
+Reemplaza este archivo por el catalogo PDF final y actualiza `catalogPath`
+en `src/config/companyConfig.ts` cuando tengas el archivo definitivo.
