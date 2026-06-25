@@ -1,11 +1,6 @@
-The website currently points to:
+The website download buttons currently point to:
 
-catalogo-placeholder.txt
+Dominca_Catalogo_2026.pdf
 
-When the final catalog PDF is ready, place it in this folder as:
-
-catalogo.pdf
-
-Then update `catalogPath` in `src/config/companyConfig.ts` to:
-
-/catalog/catalogo.pdf
+To change the active catalog later, place the new PDF in this folder and update
+`catalogPath` in `src/config/companyConfig.ts`.

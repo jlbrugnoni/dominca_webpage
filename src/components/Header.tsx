@@ -9,7 +9,6 @@ import DownloadIcon from '@mui/icons-material/Download';
 const navItems = [
   { href: '#about', label: 'Nosotros' },
   { href: '#products', label: 'Productos' },
-  { href: '#capabilities', label: 'Calidad' },
   { href: '#contact', label: 'Contacto' },
 ];
 

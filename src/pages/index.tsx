@@ -3,7 +3,6 @@ import Header from '@/components/Header';
 import Hero from '@/components/Hero';
 import AboutUs from '@/components/AboutUs';
 import Products from '@/components/Products';
-import Capabilities from '@/components/Capabilities';
 import ContactForm from '@/components/ContactForm';
 import Footer from '@/components/Footer';
 
@@ -11,7 +10,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Dominica Minerals | Carbonato de calcio y morteros secos</title>
+        <title>Dominca | Carbonato de calcio y morteros</title>
         <meta
           name="description"
           content="Carbonato de calcio y morteros secos para la industria y construccion en Republica Dominicana."
@@ -23,7 +22,6 @@ export default function Home() {
         <Hero />
         <AboutUs />
         <Products />
-        <Capabilities />
         <ContactForm />
       </main>
       <Footer />
