@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import EmailIcon from '@mui/icons-material/Email';
+import InstagramIcon from '@mui/icons-material/Instagram';
 import { company } from '@/config/companyConfig';
 
 export default function Footer() {
@@ -39,6 +40,15 @@ export default function Footer() {
             title={`Email: ${company.email}`}
           >
             <EmailIcon fontSize="large" />
+          </a>
+          <a
+            href={company.instagramUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-brand-blue hover:text-brand-green transition"
+            title={`Instagram: @${company.instagram}`}
+          >
+            <InstagramIcon fontSize="large" />
           </a>
         </div>
       </div>

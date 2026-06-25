@@ -2,6 +2,7 @@ import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import EmailIcon from '@mui/icons-material/Email';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import DownloadIcon from '@mui/icons-material/Download';
+import InstagramIcon from '@mui/icons-material/Instagram';
 import { company, products } from '@/config/companyConfig';
 
 export default function ContactForm() {
@@ -31,6 +32,13 @@ export default function ContactForm() {
                 <span>
                   <span className="block text-sm text-brand-gray">Email</span>
                   <span className="font-bold text-brand-blue">{company.email}</span>
+                </span>
+              </a>
+              <a href={company.instagramUrl} target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 rounded-md border border-brand-line p-4 hover:border-brand-green transition-colors">
+                <InstagramIcon className="text-brand-green" />
+                <span>
+                  <span className="block text-sm text-brand-gray">Instagram</span>
+                  <span className="font-bold text-brand-blue">@{company.instagram}</span>
                 </span>
               </a>
               <div className="flex items-center gap-4 rounded-md border border-brand-line p-4">

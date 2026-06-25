@@ -1,5 +1,7 @@
 export const company = {
   name: 'Dominca',
+  legalName: 'Dominca SRL',
+  siteUrl: 'https://www.industriasdominca.com',
   logoPath: '/images/logo_horizontal.png',
   tagline: 'Carbonato de calcio y morteros secos para la industria dominicana.',
   description:
@@ -9,11 +11,28 @@ export const company = {
   email: 'info@industriasdominca.com',
   location: 'República Dominicana',
   address: 'Av. Circunvalación Norte, km. 25, Santiago de los Caballeros, República Dominicana',
-  instagram: 'dominicaminerals',
+  instagram: 'indominca',
+  instagramUrl: 'https://www.instagram.com/indominca/',
   catalogPath: '/catalog/Dominca_Catalogo_2026.pdf',
   mapEmbedUrl:
     'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2212.698871518089!2d-70.76826913196727!3d19.51349692980099!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eb1c7cb90486c61%3A0x9a9d43082c5e390b!2sDominca%20SRL!5e0!3m2!1sen!2sdo!4v1782406900404!5m2!1sen!2sdo',
 };
+
+export const seoKeywords = [
+  'carbonato de calcio República Dominicana',
+  'carbonato de calcio Santiago',
+  'carbonato de calcio fino',
+  'carbonato de calcio grueso',
+  'carbonato de calcio para pinturas',
+  'carbonato de calcio para plásticos',
+  'carbonato de calcio para agricultura',
+  'carbonato de calcio para alimentación animal',
+  'morteros secos República Dominicana',
+  'pañete premezclado',
+  'estuco cementicio',
+  'adhesivo cerámico',
+  'materiales de construcción Santiago',
+];
 
 export const heroSlides = [
   {
