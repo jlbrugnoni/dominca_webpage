@@ -69,7 +69,7 @@ export default function Header() {
             className="inline-flex items-center gap-2 rounded-md border border-brand-blue px-4 py-2 hover:border-brand-green hover:text-brand-green transition-colors"
           >
             <DownloadIcon fontSize="small" />
-            Catalogo
+            Catálogo
           </a>
         </div>
 
@@ -78,7 +78,7 @@ export default function Header() {
             type="button"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             className="h-10 w-10 rounded-md border border-brand-line flex items-center justify-center"
-            aria-label="Abrir menu"
+            aria-label="Abrir menú"
           >
             {isMobileMenuOpen ? <CloseIcon className="text-brand-blue" /> : <MenuIcon className="text-brand-blue" />}
           </button>
@@ -108,7 +108,7 @@ export default function Header() {
               className="inline-flex items-center justify-center gap-2 rounded-md border border-brand-blue px-4 py-3"
             >
               <DownloadIcon fontSize="small" />
-              Catalogo
+              Catálogo
             </a>
           </div>
         </div>

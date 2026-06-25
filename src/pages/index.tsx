@@ -13,7 +13,7 @@ export default function Home() {
         <title>Dominca | Carbonato de calcio y morteros</title>
         <meta
           name="description"
-          content="Carbonato de calcio y morteros secos para la industria y construccion en Republica Dominicana."
+          content="Carbonato de calcio y morteros secos para la industria y construcción en República Dominicana."
         />
       </Head>
 

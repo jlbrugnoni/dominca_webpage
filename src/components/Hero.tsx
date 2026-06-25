@@ -66,7 +66,7 @@ export default function Hero() {
               className="inline-flex items-center justify-center gap-2 rounded-md bg-brand-green px-6 py-4 font-bold text-brand-blue hover:bg-brand-lightGreen transition-colors"
             >
               <DownloadIcon />
-              Descargar catalogo
+              Descargar catálogo
             </a>
             <a
               href="#products"

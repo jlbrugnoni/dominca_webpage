@@ -1,14 +1,14 @@
 export const company = {
-  name: 'Dominica Minerals',
+  name: 'Dominca',
   logoPath: '/images/logo_horizontal.png',
   tagline: 'Carbonato de calcio y morteros secos para la industria dominicana.',
   description:
-    'Somos una empresa familiar fundada en marzo de 2021, dedicada a la produccion de carbonato de calcio y soluciones para las industrias de la construccion, pinturas, plasticos y alimentacion animal.',
+    'Somos una empresa familiar fundada en marzo de 2021, dedicada a la producción de carbonato de calcio y soluciones para las industrias de la construcción, pinturas, plásticos y alimentación animal.',
   phone: '+1 (809) 679-7555',
   whatsapp: '18096797555',
   email: 'info@industriasdominca.com',
-  location: 'Republica Dominicana',
-  address: 'Av. Circunvalacion Norte, km. 25, Santiago de los Caballeros, Republica Dominicana',
+  location: 'República Dominicana',
+  address: 'Av. Circunvalación Norte, km. 25, Santiago de los Caballeros, República Dominicana',
   instagram: 'dominicaminerals',
   catalogPath: '/catalog/Dominca_Catalogo_2026.pdf',
   mapEmbedUrl:
@@ -17,7 +17,7 @@ export const company = {
 
 export const heroSlides = [
   {
-    image: '/images/carousel_1.png',
+    image: '/images/carousel_1.jpg',
     eyebrow: 'Industria mineral',
     title: 'Materiales con calidad constante para fabricar y construir mejor.',
     body:
@@ -26,42 +26,42 @@ export const heroSlides = [
   {
     image: '/images/carousel_2.jpg',
     eyebrow: 'Carbonato de calcio',
-    title: 'Granulometrias y blancura pensadas para aplicaciones tecnicas.',
+    title: 'Granulometrías y blancura pensadas para aplicaciones técnicas.',
     body:
-      'Soluciones para pinturas, plasticos, adhesivos, construccion y otros usos industriales.',
+      'Soluciones para pinturas, plásticos, adhesivos, construcción y otros usos industriales.',
   },
   {
     image: '/images/carousel_3.jpg',
     eyebrow: 'Morteros secos',
     title: 'Mezclas listas para obra con rendimiento y control.',
     body:
-      'Morteros formulados para facilitar aplicacion, reducir variabilidad y mejorar la productividad.',
+      'Morteros formulados para facilitar aplicación, reducir variabilidad y mejorar la productividad.',
   },
   {
     image: '/images/carousel_4.jpeg',
-    eyebrow: 'Produccion local',
-    title: 'Capacidad para suplir proyectos, ferreterias e industria.',
+    eyebrow: 'Producción local',
+    title: 'Capacidad para suplir proyectos, ferreterías e industria.',
     body:
-      'Integramos producto, empaque y despacho para responder con agilidad en Republica Dominicana.',
+      'Integramos producto, empaque y despacho para responder con agilidad en República Dominicana.',
   },
   {
     image: '/images/carousel_5.jpg',
-    eyebrow: 'Soluciones tecnicas',
+    eyebrow: 'Soluciones técnicas',
     title: 'Productos preparados para aplicaciones exigentes.',
     body:
-      'Acompañamos cada linea con informacion comercial, soporte tecnico y posibilidades de desarrollo a la medida.',
+      'Acompañamos cada línea con información comercial, soporte técnico y posibilidades de desarrollo a la medida.',
   },
 ];
 
 export const products = [
   {
     id: 'calcium-carbonate',
-    eyebrow: 'Linea mineral',
+    eyebrow: 'Línea mineral',
     name: 'Carbonato de calcio',
     image: '/images/calcium-carbonate.png',
     accent: '#84BF41',
     description:
-      'Materia prima mineral para aplicaciones industriales y construccion, disponible en granulometrias gruesas y finas.',
+      'Materia prima mineral para aplicaciones industriales y construcción, disponible en granulometrías gruesas y finas.',
     groups: [
       {
         title: 'Materiales gruesos',
@@ -77,21 +77,21 @@ export const products = [
         name: 'Carbonato de Calcio Grueso',
         color: '#123144',
         image: '/images/producto_carbonato_grueso.jpeg',
-        description: 'Linea diseñada para construccion, agricultura y alimentacion animal. Su versatilidad y pureza aportan resistencia, durabilidad y valor nutricional en multiples aplicaciones.',
+        description: 'Línea diseñada para construcción, agricultura y alimentación animal. Su versatilidad y pureza aportan resistencia, durabilidad y valor nutricional en múltiples aplicaciones.',
         items: ['3/4"', '3/8"', '4 mm', '1 mm'],
       },
       {
         name: 'Carbonato de Calcio Fino',
         color: '#84BF41',
         image: '/images/producto_carbonato_fino.jpeg',
-        description: 'Nuestra especialidad desde el inicio: carbonatos finos de alta pureza y distintas finuras para pinturas, plasticos, industria quimica, pigmentos y revestimientos.',
+        description: 'Nuestra especialidad desde el inicio: carbonatos finos de alta pureza y distintas finuras para pinturas, plásticos, industria química, pigmentos y revestimientos.',
         items: ['Pro (#200)', 'Fino (#325)', 'Plus (#400)', 'Premium (#500)', 'Ultra (#800)'],
       },
     ],
   },
   {
     id: 'dry-mortar',
-    eyebrow: 'Linea construccion',
+    eyebrow: 'Línea construcción',
     name: 'Morteros secos',
     image: '/images/dry-mortar.png',
     accent: '#123144',
@@ -100,7 +100,7 @@ export const products = [
     groups: [
       {
         title: 'Grupos principales',
-        items: ['Revestimientos', 'Estucos', 'Adhesivos ceramicos'],
+        items: ['Revestimientos', 'Estucos', 'Adhesivos cerámicos'],
       },
     ],
     families: [
@@ -108,21 +108,21 @@ export const products = [
         name: 'Pañete',
         color: '#DF5B2E',
         image: '/images/producto_panete.jpeg',
-        description: 'Revestimiento cementicio para muros de ladrillo y bloque, formulado para regularizar superficies, facilitar la aplicacion y mantener un desempeño constante en obra.',
-        items: ['Muros de bloque', 'Muros de ladrillo', 'Aplicacion interior y exterior'],
+        description: 'Revestimiento cementicio para muros de ladrillo y bloque, formulado para regularizar superficies, facilitar la aplicación y mantener un desempeño constante en obra.',
+        items: ['Muros de bloque', 'Muros de ladrillo', 'Aplicación interior y exterior'],
       },
       {
         name: 'Estuco',
         color: '#F2D748',
         image: '/images/producto_estuco.jpeg',
-        description: 'Revestimiento cementicio fino para muros, concreto y paneles. Ofrece adherencia, cohesion, durabilidad y una terminacion uniforme de alta calidad.',
-        items: ['Estuco blanco', 'Estuco gris', 'Interior y exterior', 'Terminacion fina'],
+        description: 'Revestimiento cementicio fino para muros, concreto y paneles. Ofrece adherencia, cohesión, durabilidad y una terminación uniforme de alta calidad.',
+        items: ['Estuco blanco', 'Estuco gris', 'Interior y exterior', 'Terminación fina'],
       },
       {
-        name: 'Adhesivo Ceramico',
+        name: 'Adhesivo Cerámico',
         color: '#EA8A2E',
         image: '/images/producto_adhesivo.png',
-        description: 'Adhesivos ceramicos a base de cemento Portland, agregados minerales seleccionados y aditivos especiales para trabajabilidad, adherencia y retencion de agua.',
+        description: 'Adhesivos cerámicos a base de cemento Portland, agregados minerales seleccionados y aditivos especiales para trabajabilidad, adherencia y retención de agua.',
         items: ['Pisos', 'Revestimientos', 'Alta adherencia', 'Desempeño constante'],
       },
     ],
@@ -130,42 +130,42 @@ export const products = [
 ];
 
 export const strengths = [
-  'Produccion local en Republica Dominicana',
-  'Control de calidad exhaustivo en cada etapa de produccion',
+  'Producción local en República Dominicana',
+  'Control de calidad exhaustivo en cada etapa de producción',
   'Desarrollo de productos de altas prestaciones',
-  'Logistica para suplir obras, ferreterias e industria',
+  'Logística para suplir obras, ferreterías e industria',
 ];
 
 export const aboutParagraphs = [
-  'Somos una empresa familiar fundada en marzo de 2021, dedicada a la produccion de carbonato de calcio y soluciones para las industrias de la construccion, pinturas, plasticos y alimentacion animal.',
-  'Desde nuestros inicios, hemos trabajado con el compromiso de ofrecer productos de alta calidad, impulsados por la innovacion y la sostenibilidad en cada etapa de nuestro crecimiento.',
-  'Nuestra mision es acompañar a nuestros clientes con materiales confiables que fortalezcan sus proyectos y aporten valor a sus procesos.',
+  'Somos una empresa familiar fundada en marzo de 2021, dedicada a la producción de carbonato de calcio y soluciones para las industrias de la construcción, pinturas, plásticos y alimentación animal.',
+  'Desde nuestros inicios, hemos trabajado con el compromiso de ofrecer productos de alta calidad, impulsados por la innovación y la sostenibilidad en cada etapa de nuestro crecimiento.',
+  'Nuestra misión es acompañar a nuestros clientes con materiales confiables que fortalezcan sus proyectos y aporten valor a sus procesos.',
 ];
 
 export const timeline = [
   {
     year: '2021',
     title: 'Inicio de operaciones',
-    body: 'Primera linea de molienda con gama de productos blancos y extra blancos.',
+    body: 'Primera línea de molienda con gama de productos blancos y extra blancos.',
   },
   {
     year: '2022',
-    title: 'Segunda linea de molienda',
-    body: 'Incorporacion de linea de alta eficiencia, agregando productos extra finos al catalogo.',
+    title: 'Segunda línea de molienda',
+    body: 'Incorporación de línea de alta eficiencia, agregando productos extra finos al catálogo.',
   },
   {
     year: '2023',
     title: 'Carbonatos gruesos y morteros',
-    body: 'Nuevas lineas de carbonatos gruesos y morteros con estuco blanco y gris. Modernizacion de sistemas de empaque.',
+    body: 'Nuevas líneas de carbonatos gruesos y morteros con estuco blanco y gris. Modernización de sistemas de empaque.',
   },
   {
     year: '2024',
     title: 'Morteros gruesos',
-    body: 'Incorporacion de segunda linea de produccion de morteros gruesos e introduccion de familia de revestimientos gruesos.',
+    body: 'Incorporación de segunda línea de producción de morteros gruesos e introducción de familia de revestimientos gruesos.',
   },
   {
     year: '2025',
-    title: 'Adhesivos ceramicos',
-    body: 'Lanzamiento de linea de adhesivos ceramicos y ampliacion en la seccion de morteros.',
+    title: 'Adhesivos cerámicos',
+    body: 'Lanzamiento de línea de adhesivos cerámicos y ampliación en la sección de morteros.',
   },
 ];

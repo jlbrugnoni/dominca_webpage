@@ -12,11 +12,10 @@ export default function ContactForm() {
           <div>
             <p className="text-sm font-bold uppercase tracking-[0.18em] text-brand-green mb-4">Contacto</p>
             <h2 className="text-3xl sm:text-4xl font-bold text-brand-blue mb-5">
-              Listos para cotizar, coordinar muestras o conversar sobre tu aplicacion.
+              Listos para cotizar, coordinar muestras o conversar sobre tu aplicación.
             </h2>
             <p className="text-lg leading-relaxed text-brand-gray mb-8">
-              Actualiza aqui los datos reales de ventas, planta, ubicacion y redes. Tambien puedes cambiar el mapa por
-              el enlace embed exacto de Google Maps.
+              Escríbenos para solicitar información comercial, coordinar muestras o conocer más sobre nuestras líneas de producto.
             </p>
 
             <div className="space-y-4">
@@ -49,14 +48,14 @@ export default function ContactForm() {
               {products.map((product) => (
                 <a
                   key={product.id}
-                  href={`https://wa.me/${company.whatsapp}?text=Hola,%20quiero%20informacion%20sobre%20${encodeURIComponent(product.name)}`}
+                  href={`https://wa.me/${company.whatsapp}?text=Hola,%20quiero%20informaci%C3%B3n%20sobre%20${encodeURIComponent(product.name)}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="rounded-md bg-brand-mist border border-brand-line p-5 hover:border-brand-green transition-colors"
                 >
                   <span className="mb-4 block h-7 w-7 hexagon-mark" style={{ backgroundColor: product.accent }} aria-hidden="true" />
                   <h3 className="font-bold text-brand-blue mb-2">{product.name}</h3>
-                  <p className="text-sm text-brand-gray">Solicitar informacion comercial o ficha tecnica.</p>
+                  <p className="text-sm text-brand-gray">Solicitar información comercial o ficha técnica.</p>
                 </a>
               ))}
             </div>
@@ -67,8 +66,8 @@ export default function ContactForm() {
               className="flex items-center justify-between gap-4 rounded-md bg-brand-blue p-5 text-brand-white hover:bg-brand-green hover:text-brand-blue transition-colors"
             >
               <span>
-                <span className="block font-bold">Catalogo comercial</span>
-                <span className="block text-sm opacity-80">Reemplaza el placeholder por tu PDF final</span>
+                <span className="block font-bold">Catálogo comercial</span>
+                <span className="block text-sm opacity-80">Descargar catálogo 2026</span>
               </span>
               <DownloadIcon />
             </a>

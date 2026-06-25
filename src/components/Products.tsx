@@ -40,10 +40,10 @@ export default function Products() {
           <div className="max-w-3xl">
             <p className="text-sm font-bold uppercase tracking-[0.18em] text-brand-green mb-4">Productos</p>
             <h2 className="text-3xl sm:text-4xl font-bold text-brand-blue mb-4">
-              Familias de productos para industria y construccion.
+              Familias de productos para industria y construcción.
             </h2>
             <p className="text-lg text-brand-gray leading-relaxed">
-              Presentamos nuestras lineas principales con el mismo enfoque visual del catalogo: materiales,
+              Presentamos nuestras líneas principales con el mismo enfoque visual del catálogo: materiales,
               empaques y aplicaciones organizadas por familia.
             </p>
           </div>

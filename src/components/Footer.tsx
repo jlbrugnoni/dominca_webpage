@@ -46,7 +46,7 @@ export default function Footer() {
       <div className="bg-brand-blue text-center py-4 text-sm text-brand-white/75">
         © {year} {company.name}. Todos los derechos reservados. |
         <Link href="#" className="hover:underline ml-1">Legal</Link> |
-        <Link href="#" className="hover:underline ml-1">Privacy</Link>
+        <Link href="#" className="hover:underline ml-1">Privacidad</Link>
       </div>
 
       <div className="fixed bottom-6 right-6 z-50">
